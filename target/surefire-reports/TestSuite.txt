@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.196 s <<< FAILURE! - in TestSuite
+addCustomer(sanitytest.AddCustomer)  Time elapsed: 4.168 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+[public void sanitytest.AddCustomer.addCustomer(java.util.Hashtable)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: addCustomer([Parameter{index=0, type=java.util.Hashtable, declaredAnnotations=[]}])
+Arguments: [(java.util.Hashtable) {postCode=54002, lastName=Khan, firstName=Qamar, alertText=Customer added successfully},null,null,null]
+

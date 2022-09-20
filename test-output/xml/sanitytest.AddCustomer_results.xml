@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="D:/Java Master Course/Selenium Frameworks/src/test/java/sanitytest/BankManagerLogin.java"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.288">
+  <properties />
+  
+  
+            <testcase name="addCustomer" time="0.458" classname="sanitytest.AddCustomer" />
+                <testcase name="addCustomer" time="0.830" classname="sanitytest.AddCustomer" />
+      
+</testsuite>

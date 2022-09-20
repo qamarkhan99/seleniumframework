@@ -1,0 +1,111 @@
+00:16:10,130 DEBUG org.testng.TestNG<strong>{1}</strong>:82 - suiteXmlPath: "C:\Users\qamar.munir\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml"
+00:16:12,076 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+00:16:12,077 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ================ SORTING
+00:16:12,082 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] =============== DONE SORTING
+00:16:12,083 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ====== SORTED NODES
+00:16:12,083 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ====== END SORTED NODES
+00:16:12,086 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+00:16:12,086 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ================ SORTING
+00:16:12,087 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] =============== DONE SORTING
+00:16:12,087 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ====== SORTED NODES
+00:16:12,088 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ====== END SORTED NODES
+00:16:12,101 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:sanitytest.AddCustomer@424fd310] -1752226124
+00:16:12,102 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ================ SORTING
+00:16:12,102 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] =============== DONE SORTING
+00:16:12,103 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ====== SORTED NODES
+00:16:12,103 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ====== END SORTED NODES
+00:16:12,108 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ADDING NODE AddCustomer.addCustomer(java.util.Hashtable)[pri:0, instance:sanitytest.AddCustomer@424fd310] -1113558749
+00:16:12,108 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ================ SORTING
+00:16:12,108 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] =============== DONE SORTING
+00:16:12,109 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ====== SORTED NODES
+00:16:12,109 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ====== END SORTED NODES
+00:16:12,111 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:sanitytest.AddCustomer@424fd310] 1719528525
+00:16:12,111 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ================ SORTING
+00:16:12,112 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] =============== DONE SORTING
+00:16:12,112 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ====== SORTED NODES
+00:16:12,112 DEBUG org.testng.internal.Graph<strong>{1}</strong>:82 - [Graph] ====== END SORTED NODES
+00:16:12,118  INFO org.testng.internal.Utils<strong>{1}</strong>:112 - [TestNG] Running:
+  C:\Users\qamar.munir\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+00:16:12,151 DEBUG devpinoyLogger<strong>{1}</strong>:55 - Config file Loaded
+00:16:12,152 DEBUG devpinoyLogger<strong>{1}</strong>:68 - OR file Loaded
+00:16:12,434 DEBUG io.netty.util.internal.logging.InternalLoggerFactory<strong>{1}</strong>:63 - Using SLF4J as the default logging framework
+00:16:12,443 DEBUG io.netty.util.ResourceLeakDetector<strong>{1}</strong>:129 - -Dio.netty.leakDetection.level: simple
+00:16:12,444 DEBUG io.netty.util.ResourceLeakDetector<strong>{1}</strong>:130 - -Dio.netty.leakDetection.targetRecords: 4
+00:16:12,452 DEBUG io.netty.util.ResourceLeakDetectorFactory<strong>{1}</strong>:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7c041b41
+00:16:12,493 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:460 - -Dio.netty.noUnsafe: false
+00:16:12,493 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:954 - Java version: 16
+00:16:12,496 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:135 - sun.misc.Unsafe.theUnsafe: available
+00:16:12,497 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:159 - sun.misc.Unsafe.copyMemory: available
+00:16:12,498 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:202 - java.nio.Buffer.address: available
+00:16:12,499 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+00:16:12,500 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:350 - java.nio.Bits.unaligned: available, true
+00:16:12,502 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3cb1ffe6
+00:16:12,505 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+00:16:12,506 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1103 - sun.misc.Unsafe: available
+00:16:12,530 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1205 - maxDirectMemory: 4135583744 bytes (maybe)
+00:16:12,531 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1224 - -Dio.netty.tmpdir: C:\Users\QAMAR~1.MUN\AppData\Local\Temp (java.io.tmpdir)
+00:16:12,531 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1303 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+00:16:12,532 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1063 - Platform: Windows
+00:16:12,534 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:178 - -Dio.netty.maxDirectMemory: -1 bytes
+00:16:12,534 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+00:16:12,536 DEBUG io.netty.util.internal.CleanerJava9<strong>{1}</strong>:71 - java.nio.ByteBuffer.cleaner(): available
+00:16:12,536 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:205 - -Dio.netty.noPreferDirect: false
+00:16:12,550 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:967 - org.jctools-core.MpscChunkedArrayQueue: available
+00:16:12,591 DEBUG io.netty.util.internal.InternalThreadLocalMap<strong>{1}</strong>:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+00:16:12,591 DEBUG io.netty.util.internal.InternalThreadLocalMap<strong>{1}</strong>:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+00:16:12,923 DEBUG io.netty.handler.ssl.JdkSslContext<strong>{1}</strong>:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+00:16:12,924 DEBUG io.netty.handler.ssl.JdkSslContext<strong>{1}</strong>:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+00:16:12,970 DEBUG io.netty.channel.MultithreadEventLoopGroup<strong>{1}</strong>:44 - -Dio.netty.eventLoopThreads: 16
+00:16:12,986 DEBUG io.netty.channel.nio.NioEventLoop<strong>{1}</strong>:106 - -Dio.netty.noKeySetOptimization: false
+00:16:12,987 DEBUG io.netty.channel.nio.NioEventLoop<strong>{1}</strong>:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+00:16:13,106 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:155 - -Dio.netty.allocator.numHeapArenas: 16
+00:16:13,107 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:156 - -Dio.netty.allocator.numDirectArenas: 16
+00:16:13,107 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:158 - -Dio.netty.allocator.pageSize: 8192
+00:16:13,107 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:163 - -Dio.netty.allocator.maxOrder: 11
+00:16:13,107 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:167 - -Dio.netty.allocator.chunkSize: 16777216
+00:16:13,107 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:168 - -Dio.netty.allocator.smallCacheSize: 256
+00:16:13,108 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:169 - -Dio.netty.allocator.normalCacheSize: 64
+00:16:13,108 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+00:16:13,108 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+00:16:13,108 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+00:16:13,108 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+00:16:13,108 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+00:16:13,125 DEBUG io.netty.buffer.ByteBufUtil<strong>{1}</strong>:87 - -Dio.netty.allocator.type: pooled
+00:16:13,125 DEBUG io.netty.buffer.ByteBufUtil<strong>{1}</strong>:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+00:16:13,125 DEBUG io.netty.buffer.ByteBufUtil<strong>{1}</strong>:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+00:16:14,193 DEBUG io.netty.channel.DefaultChannelId<strong>{1}</strong>:79 - -Dio.netty.processId: 24896 (auto-detected)
+00:16:14,195 DEBUG io.netty.util.NetUtil<strong>{1}</strong>:135 - -Djava.net.preferIPv4Stack: false
+00:16:14,196 DEBUG io.netty.util.NetUtil<strong>{1}</strong>:136 - -Djava.net.preferIPv6Addresses: false
+00:16:14,215 DEBUG io.netty.util.NetUtilInitializations<strong>{1}</strong>:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+00:16:14,216 DEBUG io.netty.util.NetUtil<strong>{1}</strong>:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+00:16:14,333 DEBUG io.netty.channel.DefaultChannelId<strong>{1}</strong>:101 - -Dio.netty.machineId: d8:3b:bf:ff:fe:22:33:f5 (auto-detected)
+00:16:14,398 DEBUG io.netty.buffer.AbstractByteBuf<strong>{1}</strong>:63 - -Dio.netty.buffer.checkAccessible: true
+00:16:14,398 DEBUG io.netty.buffer.AbstractByteBuf<strong>{1}</strong>:64 - -Dio.netty.buffer.checkBounds: true
+00:16:14,398 DEBUG io.netty.util.ResourceLeakDetectorFactory<strong>{1}</strong>:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2ab6dfa5
+00:16:14,420 DEBUG org.asynchttpclient.netty.channel.NettyConnectListener<strong>{1}</strong>:73 - Using new Channel '[id: 0x9a75038c, L:/127.0.0.1:53077 - R:localhost/127.0.0.1:64128]' for 'POST' to '/session'
+00:16:14,437 DEBUG io.netty.util.Recycler<strong>{1}</strong>:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+00:16:14,438 DEBUG io.netty.util.Recycler<strong>{1}</strong>:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+00:16:14,439 DEBUG io.netty.util.Recycler<strong>{1}</strong>:105 - -Dio.netty.recycler.linkCapacity: 16
+00:16:14,439 DEBUG io.netty.util.Recycler<strong>{1}</strong>:106 - -Dio.netty.recycler.ratio: 8
+00:16:14,439 DEBUG io.netty.util.Recycler<strong>{1}</strong>:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+00:16:16,104 DEBUG io.netty.handler.codec.compression.Brotli<strong>{1}</strong>:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+00:16:16,107 DEBUG org.asynchttpclient.netty.handler.HttpHandler<strong>{1}</strong>:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.1.1 (java windows)
+Content-Length: 365
+Content-Type: application/json; charset=utf-8
+host: localhost:64128
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 500 Internal Server Error
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 1085
+
+00:16:16,116 DEBUG org.asynchttpclient.netty.channel.ChannelManager<strong>{1}</strong>:270 - Adding key: http://localhost:64128 for channel [id: 0x9a75038c, L:/127.0.0.1:53077 - R:localhost/127.0.0.1:64128]
+00:16:16,161 DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool<strong>{1}</strong>:348 - Entry count for : http://localhost:64128 : 1
+00:16:16,218 DEBUG org.asynchttpclient.netty.handler.HttpHandler<strong>{1}</strong>:126 - Channel Closed: [id: 0x9a75038c, L:/127.0.0.1:53077 ! R:localhost/127.0.0.1:64128] with attribute DISCARD

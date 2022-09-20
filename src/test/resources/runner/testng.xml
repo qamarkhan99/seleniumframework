@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amwell Sanity"><test verbose="2" preserve-order="true" name="D:/Java Master Course/Selenium Frameworks/src/test/java/sanitytest/BankManagerLogin.java">
+
+    <classes>
+        <class name="sanitytest.BankManagerLogin">
+            <methods><include name="loginTest"/></methods>
+        </class>
+        <class name="sanitytest.AddCustomer">
+            <methods><include name="addCustomer"/></methods>
+        </class>
+    </classes>
+</test>
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="base.Listeners"/>
+    </listeners>
+</suite>
